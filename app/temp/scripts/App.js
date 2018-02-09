@@ -118,6 +118,7 @@ var MobileMenu = function () {
     key: "toggleTheMenu",
     value: function toggleTheMenu() {
       this.menuContent.toggleClass("site-header__menu-content--is-visible");
+      this.menuIcon.toggleClass("site-header__menu-icon--close-x");
       this.siteHeader.toggleClass("site-header--is-expanded");
     }
   }]);
